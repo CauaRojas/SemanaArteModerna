@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { Link, Routes, Route } from 'react-router-dom';
+import './App.css';
 import Content from './Content';
 import About from './About';
 import logo from './semana.png';
