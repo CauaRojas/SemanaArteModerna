@@ -22,6 +22,8 @@ nav {
 	font-size: 2rem;
 	font-weight: 700;
 	background-color: #0c0d3d;
+	padding-left: 20%;
+	padding-right: 40%;
 }
 nav > a:visited,
 nav > a:link {
