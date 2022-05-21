@@ -14,7 +14,7 @@ function App() {
 			<nav>
 				<Link to={'/'}>Inicio</Link>
 				<Link to={'/about'}>Saiba Mais</Link>
-				<Link to={'./quiz'}>Responda o Quiz</Link>
+				<Link to={'/quiz'}>Responda o Quiz</Link>
 			</nav>
 
 			<Routes>
