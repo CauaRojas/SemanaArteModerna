@@ -1,0 +1,15 @@
+{
+	"perguntas": 
+    [
+        {
+            "pergunta": "Teste",
+            "opcoes": ["OP1", "OP2", "OP3", "OP4", "OP5"],
+            "certa" : 2
+        },
+        {
+            "pergunta": "Teste2",
+            "opcoes": ["OP1", "OP2", "OP3", "OP4", "OP5"],
+            "certa" : 0
+        }
+    ]
+}
