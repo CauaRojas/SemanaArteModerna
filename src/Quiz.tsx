@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const questions = (await import('./questions.json')).default.perguntas;
 interface question {
 	question: string;
@@ -21,6 +23,12 @@ export default function Quiz() {
 					answersArray={answers}
 				/>
 			))}
+
+			<Link to={
+				{ pathname: '/outcome'}}>
+				<button>Enviar</button>
+			</Link>
+			
 		</main>
 	);
 }

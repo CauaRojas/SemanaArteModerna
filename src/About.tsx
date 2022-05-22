@@ -8,7 +8,7 @@ export default function About() {
 			<p>
 				Criamos este quiz para ajudar a nossos alunos a entender o que é, e o que foi 
 				a Semana da arte Moderna. Criando uma área de estudos e aprendizado para os alunos
-				assim como um ambiente de quiz para que eles possam se divertir e aprender.  
+				assim como um ambiente de quiz para que eles possam se divertir e aprender.
 			</p>
 			<h4>
 				Envolvidos no projeto:

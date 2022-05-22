@@ -5,6 +5,7 @@ import Content from './Content';
 import About from './About';
 import logo from './semana.png';
 import Quiz from './Quiz';
+import Outcome from './Outcome';
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 				<Route path='/' element={<Content />} />
 				<Route path='/about' element={<About />} />
 				<Route path='/quiz' element={<Quiz />} />
+				<Route path='/Outcome' element={<Outcome />} />
 			</Routes>
 		</div>
 	);
