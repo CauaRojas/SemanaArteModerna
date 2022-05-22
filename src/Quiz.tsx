@@ -63,14 +63,15 @@ function Question(props: question) {
 			<h2>{props.question}</h2>
 			<ul>
 				{props.options.map((option, index) => (
-					<li key={index} >
+					<li key={index}>
 						<input
 							type='radio'
-							name={'question'+ props.id}
+							name={'question' + props.id}
+							id={props.question + index}
 							value={indexToAlternative(index)}
 							onChange={handleInputChange}
 						/>
-						{option}
+						<label htmlFor={props.question + index}>{option}</label>
 					</li>
 				))}
 			</ul>
