@@ -22,8 +22,7 @@ function App() {
 			<Routes>
 				<Route path='/' element={<Content />} />
 				<Route path='/about' element={<About />} />
-				<Route path='/quiz' element={<Quiz />} />
-				<Route path='/Outcome' element={<Outcome />} />
+				<Route path='/quiz/*' element={<Quiz />} />
 			</Routes>
 		</div>
 	);

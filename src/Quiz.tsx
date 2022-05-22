@@ -1,4 +1,5 @@
-import { Link } from 'react-router-dom';
+import { Link, Routes, Route } from 'react-router-dom';
+import Outcome from './Outcome';
 
 const questions = (await import('./questions.json')).default.perguntas;
 interface question {
@@ -9,10 +10,22 @@ interface question {
 	answersArray: boolean[];
 }
 
+const answers: boolean[] = new Array(questions.length).fill(false);
 export default function Quiz() {
-	const answers: boolean[] = new Array(questions.length).fill(false);
 	return (
 		<main>
+			<Routes>
+				<Route path='/' element={<Questions />} />
+				<Route
+					path='/answers'
+					element={<Outcome answers={answers} />}></Route>
+			</Routes>
+		</main>
+	);
+}
+function Questions() {
+	return (
+		<>
 			{questions.map((question, index) => (
 				<Question
 					question={question.pergunta}
@@ -24,12 +37,10 @@ export default function Quiz() {
 				/>
 			))}
 
-			<Link to={
-				{ pathname: '/outcome'}}>
+			<Link to='./answers'>
 				<button>Enviar</button>
 			</Link>
-			
-		</main>
+		</>
 	);
 }
 
