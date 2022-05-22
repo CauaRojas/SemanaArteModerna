@@ -3,29 +3,19 @@ import Answer from './Answer';
 interface props {
 	answers: boolean[];
 }
-
+const questions = (await import('./questions.json')).default.perguntas;
 export default function Outcome(props: props) {
-	const questions: any = [
-		{
-			question: 'você é um artista?',
-			isRight: true,
-		},
-		{
-			question: 'voce come cocô?',
-			isRight: false,
-		},
-	];
-
+    
 	return (
-		<main>
+		<>
 			<h1>resultados</h1>
-			{questions.map((question: any, index: number) => (
+			{questions.map((question, index: number) => (
 				<Answer
-					question={question.question}
-					isRight={question.isRight}
+					question={question.pergunta}
+					isRight={props.answers[index]}
 					questionCount={index + 1}
 				/>
 			))}
-		</main>
+		</>
 	);
 }

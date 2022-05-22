@@ -1,8 +1,10 @@
 import { Link, Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 import Outcome from './Outcome';
 
 const questions = (await import('./questions.json')).default.perguntas;
 interface question {
+	id: number;
 	question: string;
 	options: string[];
 	answer: number;
@@ -28,6 +30,7 @@ function Questions() {
 		<>
 			{questions.map((question, index) => (
 				<Question
+					id={question.id}
 					question={question.pergunta}
 					options={question.opcoes}
 					answer={question.certa}
@@ -36,7 +39,6 @@ function Questions() {
 					answersArray={answers}
 				/>
 			))}
-
 			<Link to='./answers'>
 				<button>Enviar</button>
 			</Link>
@@ -55,15 +57,16 @@ function Question(props: question) {
 		props.answersArray[props.questionNumber] = isAnswerRight;
 		console.log(props.answersArray);
 	};
+
 	return (
 		<div className='question'>
 			<h2>{props.question}</h2>
 			<ul>
 				{props.options.map((option, index) => (
-					<li key={index}>
+					<li key={index} >
 						<input
 							type='radio'
-							name='question'
+							name={'question'+ props.id}
 							value={indexToAlternative(index)}
 							onChange={handleInputChange}
 						/>

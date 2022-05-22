@@ -2,14 +2,34 @@
 	"perguntas": 
     [
         {
-            "pergunta": "Teste",
-            "opcoes": ["OP1", "OP2", "OP3", "OP4", "OP5"],
-            "certa" : 2
+            "id": 1,
+            "pergunta": "Qual o nome do seu melhor amigo de infância?",
+            "opcoes": ["rogério", "Steve Minecraft", "João Dark Souls", "Mário", "Uóxito"],
+            "certa" : 4
         },
         {
-            "pergunta": "Teste2",
-            "opcoes": ["OP1", "OP2", "OP3", "OP4", "OP5"],
+            "id": 2,
+            "pergunta": "Qual a sua cor favorita?",
+            "opcoes": ["Azul", "Amarelo", "Vermelho", "Cor do sexo", "talvez"],
+            "certa" : 3
+        },
+        {
+            "id": 3,
+            "pergunta": "voce gosta de jogar video-game?",
+            "opcoes": ["Sim", "Não"],
+            "certa" : 1
+        },
+        {
+            "id": 4,
+            "pergunta": "curte ou não curte o curso?",
+            "opcoes": ["Sim", "Não"],
             "certa" : 0
+        },
+        {
+            "id": 5,
+            "pergunta": "você é um gato?",
+            "opcoes": ["Sim", "Não"],
+            "certa" : 1
         }
     ]
 }
