@@ -3,32 +3,122 @@
     [
         {
             "id": 1,
-            "pergunta": "Qual o nome do seu melhor amigo de infância?",
-            "opcoes": ["rogério", "Steve Minecraft", "João Dark Souls", "Mário", "Uóxito"],
-            "certa" : 4
-        },
-        {
-            "id": 2,
-            "pergunta": "Qual a sua cor favorita?",
-            "opcoes": ["Azul", "Amarelo", "Vermelho", "Cor do sexo", "talvez"],
-            "certa" : 3
-        },
-        {
-            "id": 3,
-            "pergunta": "voce gosta de jogar video-game?",
-            "opcoes": ["Sim", "Não"],
+            "pergunta": "(UDESC) A Semana da Arte Moderna de 1922 tinha como uma das grandes aspirações renovar o ambiente artístico e cultural do país, produzindo uma arte brasileira afinada com as tendências vanguardistas europeias, sem, contudo, perder o caráter nacional; para isso contou com a participação de escritores, artistas plásticos, músicos, entre outros. Analise as sequências que reúnam as proposições corretas em relação à Semana da Arte Moderna.</br>I. O movimento modernista buscava resgatar alguns pontos em comum com o Barroco, como os contos sobre a natureza; e com o Parnasianismo, como o estilo simples da linguagem.</br>II. A exposição da artista plástica Anita Malfatti representou um marco para o modernismo brasileiro; suas obras apresentavam tendências vanguardistas europeias, o que de certa forma chocou grande parte do público; foi criticada pela corrente conservadora, mas despertou os jovens para a renovação da arte brasileira.</br>III. O escritor Graça Aranha foi quem abriu o evento com a sua conferência inaugural A emoção estética na Arte Moderna; em seguida, apresentou suas obras Pauliceia desvairada e Amar, verbo intransitivo.</br>IV. O maestro e compositor Villa-Lobos foi um dos mais importantes e atuantes participantes da Semana.</br>V. As esculturas de Brecheret, impregnadas de modernidade, foram um dos estandartes da Semana; sua maquete do Movimento às Bandeiras foi recusada pelas autoridades paulistas; hoje, umas das esculturas públicas mais admiradas em São Paulo.</br>Assinale a alternativa que contém a sequência correta, de cima para baixo.",
+            "opcoes": ["a) II, III e V.", "b) II, IV e V", "c) I e III.", "d) I e IV.", "e) II e V."],
             "certa" : 1
         },
         {
-            "id": 4,
-            "pergunta": "curte ou não curte o curso?",
-            "opcoes": ["Sim", "Não"],
+            "id": 2,
+            "pergunta": "(PUC - SP) A Semana de Arte Moderna (1922), expressão de um movimento cultural que atingiu todas as nossas manifestações artísticas, surgiu de uma rejeição ao chamado colonialismo mental, pregava uma maior fidelidade à realidade brasileira e valorizava sobretudo o regionalismo. Com isso, pode-se dizer que:",
+            "opcoes": ["a) romance regional assumiu características de exaltação, retratando os aspectos românticos da vida sertaneja.", "b) a escultura e a pintura tiveram seu apogeu com a valorização dos modelos clássicos.", "c) movimento redescobriu o Brasil, revitalizando os temas nacionais e reinterpretando nossa realidade.", "d) os modelos arquitetônicos do período buscaram sua inspiração na tradição do barroco português.", "e) a preocupação dominante dos autores foi com o retratar os males da colonização."],
+            "certa" : 2
+        },
+        {
+            "id": 3,
+            "pergunta": "(Enem – 2010) Após estudar na Europa, Anita Malfatti retornou ao Brasil com uma mostra que abalou a cultura nacional do início do século XX. Elogiada por seus mestres na Europa, Anita se considerava pronta para mostrar seu trabalho no Brasil, mas enfrentou as duras críticas de Monteiro Lobato. Com a intenção de criar uma arte que valorizasse a cultura brasileira, Anita Malfatti e outros modernistas.",
+            "opcoes": ["a) buscaram libertar a arte brasileira das normas acadêmicas europeias, valorizando as cores, a originalidade e os temas nacionais.", "b) defenderam a liberdade limitada de uso da cor, até então utilizada de forma irrestrita, afetando a criação artística nacional.", "c) representavam a ideia de que a arte deveria copiar fielmente a natureza, tendo como finalidade a prática educativa.", "d) mantiveram de forma fiel a realidade nas figuras retratadas, defendendo uma liberdade artística ligada à tradição acadêmica.", "e) buscaram a liberdade na composição de suas figuras, respeitando limites de temas abordados."],
             "certa" : 0
         },
         {
+            "id": 4,
+            "pergunta": "(UERN/2015) A Semana de Arte Moderna, ou Semana de 1922, marcou a entrada do Modernismo artístico e literário no Brasil. Em 22/02/1922, A Gazeta publicou a seguinte notícia:</br>Ao público chocado diante da nova música tocada na Semana, como diante dos quadros expostos e dos poemas sem rima (…): sons sucessivos, sem nexo, estão fora da arte musical: são ruídos, são estrondos; palavras sem nexos estão fora do discurso: são disparates como tantos e tão cabeludos que nesta semana conseguiram desopilar os nervos do público paulista […].",
+            "opcoes": ["a) uma retomada da estética parnasiana, considerada superficial.", "b) a modernidade urbana introduzida pelo crescimento industrial.", "c) uma “demolição” das convenções estéticas tradicionais.", "d) a relevância de aspectos nacionalistas vistos na quebra de antigos paradigmas."],
+            "certa" : 2
+        },
+        {
             "id": 5,
-            "pergunta": "você é um gato?",
-            "opcoes": ["Sim", "Não"],
+            "pergunta": "(UNIMAR SP/2002) Em relação à Semana de Arte Moderna de 1922 é correto afirmar:",
+            "opcoes": ["a) Nela se realizou uma retrospectiva da produção artística brasileira do período simbolista.", "b) A preferência pelas manifestações artísticas já cristalizadas nas linhas do academicismo.", "c) Constituiu marco histórico-literário, ponto de partida para profundas modificações na arte brasileira.", "d) Foi um movimento artístico ocorrido no Rio de Janeiro, como consequência direta da Guerra Mundial de 1914-1918.", "e) Nela se discutiram as condições políticas para a implementação de um novo modelo industrial no Brasil."],
+            "certa" : 2
+        },
+        {
+            "id": 6,
+            "pergunta": "(ACAFE SC/2015) Sobre a Semana de Arte Moderna de 1922, em São Paulo, todos os textos a seguir estão corretos, exceto:",
+            "opcoes": ["a) A Semana de Arte Moderna aconteceu no Teatro Municipal, entre os dias 11 e 18 de março de 1922. Nela, o Brasil pôde reafirmar a liberdade de expressão e criatividade, em perfeita harmonia com os movimentos e preceitos das vanguardas europeias, que guardavam consigo as tendências culturais do Expressionismo, Futurismo, Cubismo, Dadaísmo, Surrealismo e Parnasianismo.", "b) O movimento Modernista tinha como objetivo o rompimento com o tradicionalismo (Parnasianismo, Simbolismo e a arte acadêmica), a libertação estética, a experimentação constante e, principalmente, a independência cultural do país.", "c) A obra literária que marcou o início do movimento Modernista na literatura foi o livro de Mário de Andrade, Pauliceia Desvairada. O livro revelou a poesia urbanista e fragmentária e retratou, numa visão anti-romântica, uma São Paulo cosmopolita e egoísta, com sua população heterogênea e sua burguesia cínica.", "d) Cada vez mais popular após as críticas do escritor Monteiro Lobato (que destruiu seus quadros a bengaladas!), Anita Malfatti desfiará todo seu expressionismo em 22 obras. Mário de Andrade é um de seus fãs."],
+            "certa" : 0
+        },
+        {
+            "id": 7,
+            "pergunta": "(UFPE/2000)O Modernismo, iniciado no Brasil a partir da Semana de Arte Moderna de 1922, não apresenta, entre suas principais características:",
+            "opcoes": ["a) incorporação da temática do cotidiano.", "b) valorização da vida rural.", "c) anticonvencionalismo dos temas.", "d) liberdade de expressão.", "e) inovação na linguagem."],
+            "certa" : 1
+        },
+        {
+            "id": 8,
+            "pergunta": "(UFGD MS/2007) Sem dúvida, o maior líder da Semana de Arte Moderna no Brasil foi",
+            "opcoes": ["a) Carlos Drummond de Andrade.", "b) Cassiano Ricardo.", "c) Manuel Bandeira.", "d) Mário de Andrade.", "e) Oswald de Andrade."],
+            "certa" : 3
+        },
+        {
+            "id": 9,
+            "pergunta": "(UFRGS/2015) Assinale a alternativa correta sobre a Semana de Arte Moderna.",
+            "opcoes": ["a) As vanguardas europeias, por seu caráter destruidor e localista, são copiadas e seguidas pelos artistas brasileiros, como Monteiro Lobato, Murilo Mendes e Raul Bopp.", "b) A prática dos Manifestos, muito comum nas vanguardas europeias, foi repetida pelos modernistas, como forma de veicular seus ideais estéticos e sociais.", "c) A briga entre Graça Aranha e Anita Malfatti serviu de inspiração para a concepção da Semana.", "c) A briga entre Graça Aranha e Anita Malfatti serviu de inspiração para a concepção da Semana.", "d) O Modernismo foi um movimento isolado, ocorrido na cidade de São Paulo, sem repercussão nacional.", "e) A Semana de Arte Moderna, liderada por intelectuais e políticos paulistas, foi o evento que coroou o Modernismo Brasileiro, com a publicação de Macunaíma , de Mario de Andrade."],
+            "certa" : 1
+        },
+        {
+            "id": 10,
+            "pergunta": "(…) pouco se tem falado do forte embate que houve entre a geração surgida na década de 30 e os modernistas, e a tendência dominante é ver o romance de 30 como um desdobramento do modernismo de 22, uma segunda fase da literatura surgida na Semana de Arte Moderna.</br>(BUENO, Luís. Uma História do Romance de 30. São Paulo- SP: Edusp/Campinas-SP: Editora da Unicamp, 2006. p. 44)</br>A Semana de Arte Moderna, evento realizado em 1922, teve como uma de suas motivações iniciais a exposição de ……………, que entusiasmou um dos mentores modernistas, …………. , mas provocou um artigo crítico extremamente ácido de ………….. .",
+            "opcoes": ["a) pinturas de Tarsila do Amaral – Monteiro Lobato – Menotti del Picchia", "b) esculturas de Victor Brecheret -Euclides da Cunha – Olavo Bilac", "c) quadros de Anita Malfatti – Mário de Andrade – Monteiro Lobato", "d) telas de Cândido Portinari – Cassiano Ricardo – Menotti del Picchia", "e) esculturas de Oscar Niemeyer – Oswald de Andrade – Cecília Meireles"],
+            "certa" : 2
+        },
+        {
+            "id": 11,
+            "pergunta": "(UESPI/2008) A Semana de Arte Moderna, de 1922, em São Paulo, foi um marco importante para a literatura nacional.</br>Sobre esse acontecimento, a única alternativa correta é:",
+            "opcoes": ["a) não houve nenhuma relação entre o Orfismo e as propostas estéticas difundidas na Semana de 22, no Brasil, pois, ao contrário dessas, o modernismo português desse período resultou num academicismo muito próximo ainda da estética parnasiana.", "b) em toda a Semana, artistas e intelectuais se restringiram à reflexão sobre a literatura no Brasil, renegando o imperialismo parnasiano e propondo uma escrita mais livre.", "c) em 1922, a estética parnasiana já estava fora de uso, de forma que a Semana de Arte Moderna transcorreu pacificamente, numa empolgação coletiva em prol da nova arte.", "d) a proposta dos artistas que participaram ativamente da Semana deixava transparecer a influência que as vanguardas europeias exerceram sobre o pensamento dos modernistas brasileiros.", "e) o balanço da Semana de Arte Moderna foi positivo, mas seus resultados não vigoraram mais que um ano. Toda a década de vinte foi marcada pela tendência simbolista ainda vigente."],
+            "certa" : 3
+        },
+        {
+            "id": 12,
+            "pergunta": "(UNIFOA MG/2002) A Semana de Arte Moderna representou, no panorama cultural da época:",
+            "opcoes": ["a) a congregação de tendências que, sob formas várias e nas várias artes, se vinham delineando desde a década anterior.", "b) o resultado da condensação de aspirações vagas, ainda informes até então, mas perceptíveis nas preferências do público em geral.", "c) a decorrência de reelaboração de recursos estilísticos presentes tanto na poesia parnasiana quanto na simbolista.", "d) a ruptura total com o passado artístico mais recente, no qual nada permitia prevê-la; daí a comoção que causou.", "e) a reação aos ataques que os últimos parnasianos dirigiam contra a obra incipiente dos primeiros modernistas."],
+            "certa" : 0
+        },
+        {
+            "id": 13,
+            "pergunta": " O Modernismo Brasileiro eclodiu com a Semana de Arte Moderna, em 1922. Sobre o movimento somente podemos afirmar que:",
+            "opcoes": ["a) Os artistas brasileiros queriam formalizar uma grande manifestação para consagrar os ideais clássicos, expressos através do Parnasianismo.", "b) A intelectualidade brasileira, de fato, já estava tomando rumos diversos daqueles presentes no século XIX, porém a tendência da poesia era a de permanecer melancólica e saudosista. ", "c) Seria um acontecimento de cunho eminentemente nacionalista, sem qualquer ligação com tendências ou movimentos que não fossem integralmente gerados no Brasil.", "d) A Semana ratificaria as premissas do direito à pesquisa estética, disseminada em tantas expressões (literatura, música, pintura, escultura) quantas fossem as dos participantes do movimento.", "e) Teria como figuras de proa os nomes de Victor Brecheret, Anita Malfatti, Oswald de Andrade e Rui Barbosa."],
+            "certa" : 3
+        },
+        {
+            "id": 14,
+            "pergunta": "(FCC) Considerados os acontecimentos da Semana de Arte Moderna e a atitude de seus principais integrantes, é correto dizer que o primeiro momento do Modernismo brasileiro visava a:",
+            "opcoes": ["a) Atualizar nossa produção literária, fazendo com que reproduzisse a estética e a temática euroamericanas, em vigência desde o início do século.", "b) Instaurar uma literatura politicamente empenhada e combativa, inspirada no Neorrealismo e no Neonaturalismo.", "c) Propor um conjunto de normas e de regras literárias, pautadas nos ensinamentos clássicos, que orientassem nossa produção literária.", "d) Reavivar nossa produção literária que, desde fins do século XIX, com a decadência do Simbolismo, escasseava.", "e) Combater remanescentes literários retrógrados, representados sobretudo, pelo Parnasianismo, a fim de renovar o curso da literatura que se fazia entre nós."],
+            "certa" : 4
+        },
+        {
+            "id": 15,
+            "pergunta": "(Mackenzie-SP) A Semana de Arte Moderna de 1922 foi um marco cultural e a expressão da busca de um novo Brasil que conseguisse superar suas características arcaicas, refletindo mudanças em todas as áreas de nosso país. Em 1928, Oswald de Andrade publicou o Manifesto Antropofágico, que procurou “traduzir” o espírito da cultura nacional. A respeito do contexto histórico e cultural da época, é correto afirmar que",
+            "opcoes": ["a) Como proposta de mudança para a Arte do século XX, ao se aceitarem as influências estrangeiras, sem se menosprezar a identidade nacional, e sim reforçando-a, retoma-se a proposta da antropofagia como “ferramenta” na elaboração da verdadeira cultura nacional.", "b) Todas as novas correntes artísticas advindas da Europa, no início do século XX, são fundamentais para a elaboração de uma cultura verdadeiramente nacional, pois estavam engajadas na preocupação de favorecer as classes trabalhadoras dentro da nova sociedade moderna mundial.", "c) O Modernismo brasileiro surgiu com a intenção de promover uma atualização da arte brasileira, capaz de ajudar na consolidação da identidade nacional de tal forma que tiveram de se desligar da influência cultural externa para a dedicação única da arte, considerada nacional e genuína.", "d) Reflete um novo posicionamento em relação à Arte no Brasil, reproduzindo as ideias que, no plano político, eram defendidas pelo movimento Verde-Amarelismo de Plínio Salgado que defendia a presença de estrangeirismos em nossa cultura.", "e) Mostra o rompimento de vários artistas nacionais, como Tarsila do Amaral e Di Cavalcanti, com as influências externas, principalmente com o movimento futurista italiano, profundamente aliado aos ideais fascistas e autoritários."],
+            "certa" : 0
+        },
+        {
+            "id": 16,
+            "pergunta": "(UFRGS) O Modernismo brasileiro, através de seus autores mais representativos na Semana de Arte Moderna, propôs:",
+            "opcoes": ["a) o apego às normas clássicas oriundas do Neoclassicismo mineiro.", "b) a ruptura com as vanguardas europeias, tais como o Futurismo e o Dadaísmo.", "c) uma literatura que investisse na idealização da figura indígena como ancestral do brasileiro.", "d) a focalização do mundo numa perspectiva apenas psicanalítica.", "e) a literatura como espaço privilegiado para a expressão dos falares brasileiros"],
+            "certa" : 4
+        },
+        {
+            "id": 17,
+            "pergunta": "(EEP/SP) Sobre a Semana de Arte Moderna é incorreto afirmar que:",
+            "opcoes": ["a)  tem em Mário de Andrade um de seus maiores representantes.", "b) ocorreu em São Paulo, em 1922.", "c) foi ao mesmo tempo o ponto de encontro das várias tendências modernas que desde a I Guerra se vinham firmando.", "d) foi precursora do Realismo.", "e) a Semana permitiu a consolidação de grupos, a publicação de livros, revistas e manifestos sobre arte em geral."],
+            "certa" : 3
+        },
+        {
+            "id": 18,
+            "pergunta": "(FGV) Assim como Vinícius de Moraes e Murilo Mendes, Carlos Drummond de Andrade pertence a uma geração de poetas que se caracterizou, principalmente, por ter",
+            "opcoes": ["a) sido pioneira na formulação dos conceitos estéticos que orientaram a Semana de Arte Moderna, em 1922.", "b) radicalizado, em suas regiões, as experiências estilísticas e temáticas que marcaram os anos de 1920.", "c) colhido, nos anos de 1930, os resultados da pesquisa estética da década precedente, atenuando-lhe o caráter destruidor.", "d) valorizado a linguagem regional, para, por meio dela, fazer a crítica da política local.", "e) repudiado o universalismo, sugerindo um caminho nacionalista para a poesia brasileira do século vinte.</br>Está inteiramente correto considerar como conseqüências da Semana de Arte Moderna:"],
+            "certa" : 2
+        },
+        {
+            "id": 19,
+            "pergunta": "(UNESP) Entre 11 e 16 de fevereiro de 1922, realizou-se no Teatro Municipal de São Paulo a Semana de Arte Moderna. Segundo Mário de Andrade, as mudanças ocorridas a partir da Semana de 22 e do Movimento Modernista significaram a fusão de três princípios: o direito permanente à pesquisa estética, a atualização da inteligência artística brasileira e a estabilização de uma consciência criadora nacional.",
+            "opcoes": ["a) a formação de uma geração de artistas que romperam com a arte barroca; o reconhecimento e a valorização das expressões artísticas do Renascimento Italiano; a formação de grupos de artistas e salões de arte moderna em todo o Brasil.", "b) a formação de uma geração de artistas acadêmicos; o reconhecimento e a valorização das expressões artísticas da Missão Artística Francesa; a formação de grupos de artistas e de salões de arte neoclássicos.", "c) a formação de uma geração de artistas que romperam com a estética modernista; o reconhecimento e a valorização das expressões artísticas contemporâneas; a formação de grupos de artistas e salões de arte em São Paulo e no Rio de Janeiro destinados a exposições de arte moderna.", "d) a formação de uma geração de artistas que romperam com os ditames acadêmicos; o reconhecimento e a valorização das expressões artísticas dos primitivos; a formação de grupos de artistas, tais como o Clube dos Artistas Modernos e a Sociedade Pró Arte Moderna de São Paulo.", "e) a formação de uma geração de artistas que romperam com o estilo clássico; o reconhecimento e a valorização das expressões artísticas do estilo Rococó; a formação de grandes exposições de Arte, como a Bienal de São Paulo."],
+            "certa" : 3
+        },
+        {
+            "id": 20,
+            "pergunta": "(FGV) Leia o texto.</br>A Semana de 22 não foi um fato isolado e sem origens. As discussões em torno da necessidade de renovação das artes surgem em meados da década de 1910 em textos de revistas e em exposições, como a de Anita Malfatti em 1917. Em 1921 já existe, por parte de intelectuais como Oswald de Andrade e Menotti Del Picchia, a intenção de transformar as comemorações do centenário em momento de emancipação artística. (...) (www.itaucultural.org.br)</br>Em geral, os artistas participantes da Semana de Arte Moderna propunham ",
+            "opcoes": ["a) que a arte, especialmente a literatura, abandonasse as preocupações com os destinos brasileiros e se voltasse para o princípio da arte pela arte. ", "b) a rejeição ao conservadorismo presente na produção artística brasileira, defendendo novas estéticas e temáticas, como a discussão sobre as questões brasileiras. ", "c) que os artistas estabelecessem vínculos com correntes filosóficas, mas não com projetos políticos e ideológicos, fossem estes progressistas ou conservadores.", "d) o reconhecimento da superioridade da arte europeia e da importância da civilização portuguesa no notável desenvolvimento cultural brasileiro.", "e) que apenas as artes plásticas, com destaque para a pintura, poderiam representar avanços revolucionários em direção a uma arte de fato inovadora."],
             "certa" : 1
         }
     ]
