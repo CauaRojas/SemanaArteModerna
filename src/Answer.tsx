@@ -1,3 +1,4 @@
+import parse from 'html-react-parser';
 interface answer{
     question: string;
     isRight: boolean;
@@ -6,10 +7,10 @@ interface answer{
 
 export default function Answer(props: answer) {
     return(
-        <main>
+        <>
             <h3>Questão {props.questionCount}</h3>
-            <strong>{props.question}</strong>
+            <strong>{parse(props.question)}</strong>
             <p>{props.isRight ? "Resposta correta" : "Resposta incorreta"}</p>
-        </main>
+        </>
     );
 }

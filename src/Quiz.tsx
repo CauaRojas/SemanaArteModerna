@@ -61,7 +61,8 @@ function Question(props: question) {
 	
 	return (	
 		<div className='question'>
-			<h2>{parse(props.question)}</h2>
+			<h2>Questão {props.questionNumber + 1}</h2>
+			<strong>{parse(props.question)}</strong>
 			<ul>
 				{props.options.map((option, index) => (
 					<li key={index}>
