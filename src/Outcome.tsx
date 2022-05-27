@@ -11,6 +11,7 @@ export default function Outcome(props: props) {
 			<h1>resultados</h1>
 			{questions.map((question, index: number) => (
 				<Answer
+					key={question.id}
 					question={question.pergunta}
 					isRight={props.answers[index]}
 					questionCount={index + 1}
