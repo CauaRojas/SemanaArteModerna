@@ -1,6 +1,7 @@
 import { Link, Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
 import Outcome from './Outcome';
+import parse, { Element } from "html-react-parser";
 
 const questions = (await import('./questions.json')).default.perguntas;
 interface question {
@@ -57,10 +58,10 @@ function Question(props: question) {
 		props.answersArray[props.questionNumber] = isAnswerRight;
 		console.log(props.answersArray);
 	};
-
-	return (
+	
+	return (	
 		<div className='question'>
-			<h2>{props.question}</h2>
+			<h2>{parse(props.question)}</h2>
 			<ul>
 				{props.options.map((option, index) => (
 					<li key={index}>
@@ -73,6 +74,7 @@ function Question(props: question) {
 						/>
 						<label htmlFor={props.question + index}>{option}</label>
 					</li>
+					
 				))}
 			</ul>
 		</div>
