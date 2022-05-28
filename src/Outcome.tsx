@@ -1,11 +1,11 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Answer from './Answer';
 interface props {
 	answers: boolean[];
 }
 const questions = (await import('./questions.json')).default.perguntas;
 export default function Outcome(props: props) {
-    
 	return (
 		<>
 			<h1>resultados</h1>
@@ -17,6 +17,7 @@ export default function Outcome(props: props) {
 					questionCount={index + 1}
 				/>
 			))}
+			<Link to={'../'}>Tentar novamente</Link>
 		</>
 	);
 }
