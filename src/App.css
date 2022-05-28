@@ -64,6 +64,12 @@ main {
 	font-size: 2rem;
 	color: #000;
 }
+.correct {
+	color: #008000;
+}
+.incorrect {
+	color: #ff0000;
+}
 @media (max-width: 768px) {
 	header {
 		justify-content: center;

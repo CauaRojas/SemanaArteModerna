@@ -62,7 +62,6 @@ function Question(props: question) {
 	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		isAnswerRight = event.target.value === rightAnswer;
 		props.answersArray[props.questionNumber] = isAnswerRight;
-		console.log(props.answersArray);
 	};
 
 	return (

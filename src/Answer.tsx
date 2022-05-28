@@ -6,11 +6,16 @@ interface answer {
 }
 
 export default function Answer(props: answer) {
+	const returnClassName = (isRight: boolean) => {
+		const className = isRight ? 'correct' : 'incorrect';
+		return 'alternatives ' + className;
+	};
+
 	return (
 		<>
 			<h2 className='question-header'>Questão {props.questionCount}</h2>
 			<h3 className='question'>{parse(props.question)}</h3>
-			<p className='alternatives'>
+			<p className={returnClassName(props.isRight)}>
 				{props.isRight ? 'Resposta correta' : 'Resposta incorreta'}
 			</p>
 		</>
