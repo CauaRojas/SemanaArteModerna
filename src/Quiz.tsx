@@ -32,7 +32,9 @@ function Questions() {
 			top: 0,
 			behavior: 'smooth',
 		});
+		answers.fill(false);
 	}, []);
+
 	return (
 		<>
 			{questions.map((question, index) => (
