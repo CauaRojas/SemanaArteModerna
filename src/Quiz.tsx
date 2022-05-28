@@ -1,7 +1,7 @@
 import { Link, Routes, Route } from 'react-router-dom';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Outcome from './Outcome';
-import parse, { Element } from "html-react-parser";
+import parse, { Element } from 'html-react-parser';
 
 const questions = (await import('./questions.json')).default.perguntas;
 interface question {
@@ -27,6 +27,14 @@ export default function Quiz() {
 	);
 }
 function Questions() {
+	useEffect(() => {
+		window.scrollTo({
+			top: 0,
+			behavior: 'smooth',
+		});
+		answers.fill(false);
+	}, []);
+
 	return (
 		<>
 			{questions.map((question, index) => (
@@ -56,14 +64,15 @@ function Question(props: question) {
 	const handleInputChange = (event: React.ChangeEvent<HTMLInputElement>) => {
 		isAnswerRight = event.target.value === rightAnswer;
 		props.answersArray[props.questionNumber] = isAnswerRight;
-		console.log(props.answersArray);
 	};
-	
-	return (	
+
+	return (
 		<div className='question'>
-			<h2>Questão {props.questionNumber + 1}</h2>
-			<strong>{parse(props.question)}</strong>
-			<ul>
+			<h2 className='question-header'>
+				Questão {props.questionNumber + 1}
+			</h2>
+			<h3 className='question'>{parse(props.question)}</h3>
+			<ul className='alternatives'>
 				{props.options.map((option, index) => (
 					<li key={index}>
 						<input
@@ -75,7 +84,6 @@ function Question(props: question) {
 						/>
 						<label htmlFor={props.question + index}>{option}</label>
 					</li>
-					
 				))}
 			</ul>
 		</div>
