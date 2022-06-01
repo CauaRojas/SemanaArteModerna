@@ -11,6 +11,7 @@ header {
 }
 header > img {
 	height: 100%;
+	max-width: 22rem;
 }
 nav {
 	display: flex;
@@ -70,7 +71,7 @@ main {
 .incorrect {
 	color: #ff0000;
 }
-@media (max-width: 768px) {
+@media (max-width: 920px) {
 	header {
 		justify-content: center;
 	}
