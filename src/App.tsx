@@ -3,10 +3,12 @@ import { Link, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Content from './Content';
 import About from './About';
-import logo from '../imgs/semana.png';
+import logo from './img/semana.png';
 import Quiz from './Quiz';
 import Outcome from './Outcome';
-
+import LogosSemana from './img/LogoSemana.jpeg';
+import artesSemana from './img/artesSemana.jpeg';
+import museuSemana from './img/museuSemana.jpeg';
 function App() {
 	return (
 		<div className='App'>
@@ -20,7 +22,16 @@ function App() {
 			</nav>
 
 			<Routes>
-				<Route path='/' element={<Content />} />
+				<Route
+					path='/'
+					element={
+						<Content
+							logo={LogosSemana}
+							artes={artesSemana}
+							museu={museuSemana}
+						/>
+					}
+				/>
 				<Route path='/about' element={<About />} />
 				<Route path='/quiz/*' element={<Quiz />} />
 			</Routes>

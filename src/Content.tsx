@@ -1,7 +1,14 @@
-export default function Content() {
+interface props {
+	logo: string;
+	museu: string;
+	artes: string;
+}
+
+export default function Content({ logo, museu, artes }: props) {
 	return (
 		<main>
 			<h1>Semana da Arte Moderna</h1>
+			<img src={logo} alt='Logo da Semana Da Arte Moderna' />
 			<article>
 				<h2>O que é a Semana da Arte moderna</h2>
 				<p>
