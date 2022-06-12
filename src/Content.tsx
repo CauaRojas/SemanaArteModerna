@@ -24,6 +24,7 @@ export default function Content({ logo, museu, artes }: props) {
 					vanguardas europeias. Seu objetivo era uma renovação social
 					e artística no país.
 				</p>
+				<img src={museu} alt='Museu onde ocorreu esse evento' />
 			</article>
 			<article>
 				<h2>Qual foi sua importância?</h2>
@@ -42,6 +43,7 @@ export default function Content({ logo, museu, artes }: props) {
 					precursores do que seria reconhecido posteriormente por
 					diversos países diferentes.
 				</p>
+				<img src={artes} alt='Artes que ocorreram na Semana' />
 			</article>
 			<article>
 				<h2>Importância histórica</h2>
