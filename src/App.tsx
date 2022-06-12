@@ -3,7 +3,7 @@ import { Link, Routes, Route } from 'react-router-dom';
 import './App.css';
 import Content from './Content';
 import About from './About';
-import logo from './semana.png';
+import logo from '../imgs/semana.png';
 import Quiz from './Quiz';
 import Outcome from './Outcome';
 
